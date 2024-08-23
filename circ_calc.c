@@ -18,6 +18,8 @@ int main(){
     scanf("%lf",&diameter);
     circumference = pi * diameter;
     printf("\n%lf",circumference);
+  }else{ 
+    printf("\nSorry, but that's not an option please start again and pick either option 1 or 2");
   }
   return 0;
 }
