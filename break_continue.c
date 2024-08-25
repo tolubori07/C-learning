@@ -8,7 +8,8 @@ int main(int argc, char *argv[]) {
   // on
   for (int i = 1; i <= 20; i++) {
     if (i == 10) {
-      continue;
+      continue;// causes it to skip 10
+      // break; //causes it to stop at 10
     }
     printf("%d\n", i);
   }
